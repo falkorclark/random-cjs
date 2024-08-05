@@ -1,11 +1,18 @@
 {
   "name": "random-cjs",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "description": "Seedable random number generator supporting many common distributions.",
-  "repository": "transitive-bullshit/random",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/falkorclark/random-cjs.git"
+  },
   "author": "Travis Fischer <travis@transitivebullsh.it>",
+  "contributors": [
+    "Falkor Clark <falkorclark@gmail.com>"
+  ],
   "type": "commonjs",
   "module": "./dist/random.js",
+  "main": "./dist/random.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": "./dist/random.js",
