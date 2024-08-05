@@ -28,7 +28,11 @@ yarn add random
 pnpm add random
 ```
 
-Note: this package uses ESM and no longer provides a CommonJS export. See [here](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c) for more info on how to use ESM modules.
+Note: this package is a CommonJS port of the random package found [here](https://www.npmjs.com/package/random).
+Why CommonJS? Many of the applications developed in NodeJS use a packager like
+[pkg](https://www.npmjs.com/package/pkg) or [nexe](https://www.npmjs.com/package/nexe)
+neither of which support ESM modules. Therefore, this port was created to 
+support those package managers directly.
 
 ## Usage <!-- omit in toc -->
 
