@@ -1,6 +1,6 @@
 {
   "name": "random-cjs",
-  "version": "4.1.1",
+  "version": "4.1.2",
   "description": "Seedable random number generator supporting many common distributions.",
   "repository": {
     "type": "git",

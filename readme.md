@@ -2,7 +2,8 @@
 
 > Seedable random number generator supporting many common distributions.
 
-[![NPM](https://img.shields.io/npm/v/random.svg)](https://www.npmjs.com/package/random) [![Build Status](https://github.com/transitive-bullshit/random/actions/workflows/test.yml/badge.svg)](https://github.com/transitive-bullshit/random/actions/workflows/test.yml) [![Prettier Code Formatting](https://img.shields.io/badge/code_style-prettier-brightgreen.svg)](https://prettier.io)
+[![NPM](https://img.shields.io/npm/v/random.svg)](https://www.npmjs.com/package/random-cjs)
+[![Prettier Code Formatting](https://img.shields.io/badge/code_style-prettier-brightgreen.svg)](https://prettier.io)
 
 Welcome to the most **random** module on npm! 😜
 
@@ -515,6 +516,8 @@ Type: `function (alpha): function`
 Thanks go to [Andrew Moss](https://github.com/agmoss) for the TypeScript port and for helping to maintain this package!
 
 Shoutout to [Roger Combs](https://github.com/rcombs) for donating the `random` npm package for this project!
+
+Shoutout to [Falkor Clark](https://github.com/falkorclark) for donating the `random-cjs` CommonJS port for this project!
 
 Lots of inspiration from [d3-random](https://github.com/d3/d3-random) ([@mbostock](https://github.com/mbostock) and [@svanschooten](https://github.com/svanschooten)).
 
